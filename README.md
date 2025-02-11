@@ -8,7 +8,7 @@
 
 **附近**：以住家為中心，其上、下、左、右兩格範圍，共24格之內。如下圖：
 
-![H為某個位置，則上述紅色區域為H的附近。](/img/img1.jpg)
+<img src="img/img1.jpg" width="500" alt="" />
 
 ## 維修順序說明
 
@@ -71,7 +71,7 @@ while there is any power-failure house f
 
 假設村莊大小 `7x7`，變電所位於 `(2,2)`。村莊內有 2 個住家，位置 `(3,4)`，`(4,5)`。則初始地圖是：
 
-![初始地圖](/img/img2.jpg)
+<img src="/img/img2.jpg" width="500" alt="Average Pooling" />
 
 上例輸入是：
 
@@ -86,7 +86,7 @@ while there is any power-failure house f
 
 上面輸入中，`(3,4)` 的住家位於變電所附近，且 `(4,5)` 在 `(3,4)` 附近。因此所有房子最後都會恢復供電。維修完畢後的地圖是：
 
-![維修完畢後的地圖](/img/img4.jpg)
+<img src="/img/img4.jpg" width="500" alt="Average Pooling" />
 
 輸出為：
 
@@ -105,7 +105,7 @@ while there is any power-failure house f
 
 假設村莊大小 `6x8`，變電所位於 `(0,1)`。村莊內有 4 個住家，位置 `(0,2)`，`(2,2)`，`(3,7)`，`(1,5)`。則初始地圖是：
 
-![初始地圖](/img/img44.jpg)
+<img src="/img/img44.jpg" width="500" alt="Average Pooling" />
 
 輸入為：
 
@@ -130,5 +130,4 @@ while there is any power-failure house f
 0 0 1 0 0 0 0 9
 0 0 0 0 0 0 0 0
 0 0 0 0 0 0 0 0
-```
 ```
